@@ -1,0 +1,97 @@
+.math-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2px;
+}
+
+.math-square {
+  width: 220px;
+  height: 220px;
+  background: #f4f7fa;
+  border-radius: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 20px rgba(50, 100, 180, 0.18);
+  transition: box-shadow 0.2s;
+  margin-bottom: 3px;
+}
+
+.math-square:active {
+  box-shadow: 0 2px 8px rgba(50, 100, 180, 0.12);
+}
+
+.math-problem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+  gap: 14px;
+  user-select: none;
+}
+
+.math-placeholder {
+  color: #aaa;
+  font-size: 20px;
+  user-select: none;
+}
+
+.math-number {
+  font-weight: 600;
+}
+
+.math-operator {
+  font-size: 36px;
+  color: #2980d9;
+}
+
+.math-operator.big {
+  font-size: 54px;
+  font-weight: bold;
+  color: #2364ab;
+}
+
+.math-result {
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.math-result.yes {
+  color: #49b37d;
+}
+.math-result.no {
+  color: #e74c3c;
+}
+
+.math-input {
+  width: 190px;
+  padding: 8px;
+  border: 1px solid #90a4ae;
+  border-radius: 9px;
+  margin-bottom: 12px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  outline: none;
+  margin-top: 8px;
+}
+
+.math-button {
+  width: 100px;
+  padding: 8px;
+  border: none;
+  border-radius: 9px;
+  background: #2980d9;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.19s;
+}
+
+.math-button:disabled {
+  background: #b0bec5;
+  cursor: not-allowed;
+}
