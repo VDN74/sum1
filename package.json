@@ -1,8 +1,8 @@
 {
-  "name": "matemsumma1",
+  "name": "sum1",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/matemsumma1",
+  "homepage": "https://vdn74.github.io/sum1",
   "type": "module",
   "scripts": {
     "dev": "vite",
